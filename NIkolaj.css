@@ -1,0 +1,137 @@
+* {
+    font-family: "Arial";
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    padding: 20px;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin: 0;
+    background-color: orangered;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+
+}
+
+.about-me span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.about-me p {
+    display: flex;
+}
+
+.profile-picture {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.education span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.education ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.education li {
+    display: flex;
+    padding: 20px;
+    padding-left: 0px;
+}
+
+.jobs ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.jobs span {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.pt li {
+    display: flex;
+    padding: 20px;
+    justify-content: flex-start;
+    padding-left: 0px;
+
+}
+
+.ft {
+    margin-bottom: 20px;
+
+}
+
+.ft ul {
+    margin-top: 20px;
+}
+
+.vt {
+    margin-bottom: 20px;
+}
+
+.vt ul {
+    margin-top: 20px;
+}
+
+footer {
+    padding: 20px;
+}
+
+.let\'s-talk span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 1px solid #333333;
+    color: black;
+    background-color: orangered;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.btn2 {
+    text-decoration: none;
+    padding: 0.5rem;
+    border: 1px solid #333333;
+    color: black;
+    background-color: orangered;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-evenly;
+}
